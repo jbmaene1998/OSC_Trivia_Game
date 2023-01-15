@@ -15,7 +15,3 @@ function startGame(module, type) {
     localStorage.setItem("gamemode", type);
     location.href = "http://127.0.0.1:5500/pages/game.html";
 }
-
-function manageQuestions() {
-    location.href = "http://127.0.0.1:5500/pages/manageQuestions.html";
-}
